@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T03:02:29.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="hSxaPwfPySIJNOrRKRCE" version="24.5.4" type="github">
-  <diagram name="第 1 页" id="Uc7Y426lwXYGZM6LqXw5">
+<mxfile host="app.diagrams.net" modified="2024-06-18T03:39:11.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="yJ9W9K-ZDR4rj68gSYaE" version="24.5.4" type="github" pages="2">
+  <diagram name="HARQ-ACK" id="Uc7Y426lwXYGZM6LqXw5">
     <mxGraphModel dx="786" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -63,6 +63,60 @@
         </mxCell>
         <mxCell id="W44_wNCcNRFnUswYYEH9-50" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="570" y="443" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pO2Q7q86ZML7jvRMtg1M" name="HARQ-ACK-1">
+    <mxGraphModel dx="786" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-2" value="dl-to-harq-feedback" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-6" value="DCI 1_0" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="485" y="-28" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-7" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="XbM0FBx_KB5MUdPH8eGw-6" parent="1" source="XbM0FBx_KB5MUdPH8eGw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="14" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-8" value="DCI 1_1" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="485" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-9" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="XbM0FBx_KB5MUdPH8eGw-8" parent="1" source="XbM0FBx_KB5MUdPH8eGw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-16" value="&lt;ul style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PDSCH to HARQ 反馈定时指示字段: 3bit&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;索引表格[4, 5, 6, 7, 8, 9, 10, 11]，得到k&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;K_offset来自高层参数k-OffsetCommon&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="655" y="-108" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-17" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="XbM0FBx_KB5MUdPH8eGw-16" parent="1" source="XbM0FBx_KB5MUdPH8eGw-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="50" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-18" value="&lt;ul style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PDSCH to HARQ 反馈定时指示字段: 0bit&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;索引表格dl-DataToUL-ACK：长度为1，得到k&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;K_offset来自高层参数k-Offset&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="653" y="20" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-19" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="XbM0FBx_KB5MUdPH8eGw-18" parent="1" source="XbM0FBx_KB5MUdPH8eGw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-20" value="&lt;ul style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PDSCH to HARQ 反馈定时指示字段: 1/2/3bit&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;索引表格dl-DataToUL-ACK&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;mapping表格：表8.2.3-1（第4部分物理层控制过程）&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;K_offset来自高层参数k-Offset&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="653" y="110" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XbM0FBx_KB5MUdPH8eGw-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="XbM0FBx_KB5MUdPH8eGw-20" parent="1" source="XbM0FBx_KB5MUdPH8eGw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QUPriuaKmgre3Ia_pp7G-1" value="n+k+K_offset*2^u" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="10" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
