@@ -58,7 +58,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oePb32lYY-VAFVFrQBhf-7" value="enhanced_mode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="oePb32lYY-VAFVFrQBhf-7" value="enhanced_transmit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="245" y="210" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oePb32lYY-VAFVFrQBhf-8" value="update existing pucch" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
@@ -201,8 +201,8 @@
         <mxCell id="oePb32lYY-VAFVFrQBhf-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oePb32lYY-VAFVFrQBhf-2" target="oePb32lYY-VAFVFrQBhf-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oePb32lYY-VAFVFrQBhf-45" value="&lt;b&gt;MSG4-PUCCH 不是 enhanced mode&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="190" width="230" height="30" as="geometry" />
+        <mxCell id="oePb32lYY-VAFVFrQBhf-45" value="&lt;b&gt;MSG4-PUCCH 不是 enhanced transmit&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="190" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oePb32lYY-VAFVFrQBhf-47" value="&lt;b&gt;per slot tick&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="345" y="38" width="90" height="30" as="geometry" />
